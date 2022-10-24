@@ -7,8 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "seed": "node script/seed.js"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
@@ -22,7 +21,7 @@
     "fs-extra": "^10.0.0",
     "lodash": "^4.17.21",
     "lodash.set": "^4.3.2",
-    "sqlite3": "5.0.2",
+    "better-sqlite3": "7.6.2",
     "strapi-plugin-entity-relationship-chart": "^4.1.0",
     "strapi-plugin-todo": "^0.0.9",
     "unzip-stream": "^0.3.1",
